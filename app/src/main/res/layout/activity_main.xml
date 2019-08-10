@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl3"
+
+    android:padding="16dp"
+
+    android:background="@drawable/appback3"
+
+    tools:context=".Main3Activity">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="395dp"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="502dp"
+        android:background="@drawable/background5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Enjoy delicious foods"
+        android:textAlignment="viewEnd"
+        android:textColor="#FF5722"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+
+
+
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="-131dp"
+        android:layout_marginBottom="163dp"
+        android:text="Chinese chicken fried rice"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="145dp"
+        android:layout_height="140dp"
+        android:layout_alignRight="@id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="-185dp"
+        android:layout_marginBottom="288dp"
+        android:text="Rs 320/="
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="162dp"
+        android:layout_height="189dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="213dp"
+        android:layout_marginBottom="285dp"
+        android:src="@drawable/friedrice" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="201dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginBottom="98dp"
+        android:src="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="232dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="180dp"
+        android:text="Chicken Pizza"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="494dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="89dp"
+        android:text="Rs 150/="
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+
+        android:layout_below="@+id/editText2"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginRight="-53dp"
+        android:layout_marginBottom="522dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Main course" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="127dp"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="202dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="144dp"
+        android:layout_height="162dp"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="14dp"
+        android:text="View" />
+
+
+</RelativeLayout>
